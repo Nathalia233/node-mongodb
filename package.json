@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Nathalia233/node-mongodb#readme",
   "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
     "express": "^4.17.1",
     "mongoose": "^6.0.5"
   }
