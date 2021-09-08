@@ -1,0 +1,19 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": " atividade de exemplo de api em Node.js usando mongodb e mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathalia233/node-mongodb.git"
+  },
+  "author": "Nathalia-Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathalia233/node-mongodb/issues"
+  },
+  "homepage": "https://github.com/Nathalia233/node-mongodb#readme"
+}
