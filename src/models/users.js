@@ -3,6 +3,9 @@ import Mongoose from 'mongoose'
 const schema = new Mongoose.Schema({
     firstName: String,
     lastName: String,
+    title: String,
+    content: String,
+    publishDate: Date,
     email: {
         type: String,
         required: [true, 'Email is required'],
@@ -19,6 +22,8 @@ const schema = new Mongoose.Schema({
           }
     },
     versionKey: false,
+},{
+
 })
 
 const UsersModel = Mongoose.model('Users', schema)
